@@ -1,0 +1,132 @@
+body {
+	background-image: url('images/bluegeo.jpg');
+	
+}
+
+
+.container {
+	background-color: rgba(255, 255, 255, 0.93);
+	border-radius: 25px;
+    width: 90%;
+	height: 100%;
+	margin: auto;
+
+
+	margin-top: 1.4%;
+}
+
+#first {
+	margin-top: 8%;
+	padding-bottom: 1.6%;
+}
+
+#tweetbox {
+	padding-top: .8%;
+    padding-bottom: .8%;
+
+}
+
+.heading {
+	font-weight: bold;
+}
+
+
+.indivTweet {
+	background-color: gray;
+	color: #fff;
+	margin-top: 5px;
+	opacity: .99;
+	border-radius: 25px;
+	padding-left: 8px;
+
+}
+
+.indivTweet.visitorTweet {
+    background-color: #68a54b;
+}
+
+.indivTweet.visitorTweet .date {
+    color: #75bc56;
+}
+
+
+.user {
+	background-color: #1f1f1f;
+	color: #fff;
+
+
+}
+
+.user:hover {
+	background-color: #68a54b;
+	color: #fff;
+
+}
+
+.inputTweet {
+	font-weight: bold;
+}
+
+.inputTweet#inputTweetHandle {
+	padding-right: 2px;
+}
+.inputTweet#inputTweetText {
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+.showAll {
+	float: right;
+	width: 200px;
+	height: 25px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
+	background:-moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:-webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:-o-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:-ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ad5a', endColorstr='#68a54b',GradientType=0);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:3px 12px;
+	text-decoration:none;
+	margin-top:10px;
+	border-radius: 25px;
+}
+
+
+.showAll:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #74ad5a));
+	background:-moz-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-webkit-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-o-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-ms-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68a54b', endColorstr='#74ad5a',GradientType=0);
+	background-color:#68a54b;
+}
+
+
+.showAll:active {
+	position:relative;
+	top:1px;
+}
+
+#belowbox {
+	margin-top:0px;
+}
+
+
+.date {
+	color: #999;
+	padding-left: 15px;
+}

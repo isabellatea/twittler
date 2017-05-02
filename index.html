@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="jquery.js"></script>
-    <script src="data_generator.js"></script>
+    <script src='jquery.js'></script>
+    <script src='main.js'></script>
+    <script src='data_generator.js'></script>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
   </head>
+
   <body>
-    <script>
+    <div class='container' id='first'>
 
-      $(document).ready(function(){
-        var $body = $('body');
-        $body.html('');
+      <div class='title'>
+      <button class='showAll'>Show All</button>
+      <h1 class ='heading'>Tweets Yay!</h1>
 
-        var index = streams.home.length - 1;
-        while(index >= 0){
-          var tweet = streams.home[index];
-          var $tweet = $('<div></div>');
-          $tweet.text('@' + tweet.user + ': ' + tweet.message);
-          $tweet.appendTo($body);
-          index -= 1;
-        }
+      </div>
 
-      });
+      <div class='tweets'></div>
 
-    </script>
+      
+
+    </div>
+
+    <div class ='container' id='tweetbox'>
+
+
+    <form action="javascript:console.log('hai')'">
+      <div>
+        <span class = 'inputTweet' id='inputTweetHandle'>Handle: @</span><input type='text' name='visitor'>
+        <span class = 'inputTweet' id ='inputTweetText'>Tweetlette:</span><input type='text' name='message' size='50'>
+        <input class='showAll' id='belowbox' type='submit' value='Submit'>
+      </div>
+    </form>
+
+
+
+
+
+    </div>
+
   </body>
+
 </html>
+
